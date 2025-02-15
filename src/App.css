@@ -1,0 +1,81 @@
+#root {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backgroundContainer {
+  height: 100vh;
+  width: 70vw;
+  background-color: hsl(234, 29%, 20%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainDiv {
+  width: 60%;
+  height: 65%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+}
+.firstDiv {
+  margin-top: 5%;
+  margin-left: 20px;
+}
+
+.success {
+  height: 20px;
+  width: 20px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+#email{
+  width: 85%;
+  height: 10%;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 30px;
+  font-size: x-large;
+}
+
+#btn{
+  width: 85%;
+  height: 10%;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 30px;
+  background-color: hsl(235, 18%, 26%);
+  color: white;
+}
+
+
+#emailImage{
+  height: 90%;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width:600px) {
+
+  .backgroundContainer {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.mainDiv{
+  display: flex;
+
+}
+  
+}
