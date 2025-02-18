@@ -9,8 +9,6 @@ function App() {
   const [errorState, setError] = useState("");
   const [active, setActive] = useState(true);
   function handlevaildation() {
-    const mainDiv = document.getElementsByClassName("mainDiv");
-    console.log(mainDiv);
     const emailregex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
     const result = emailregex.test(input);
 
