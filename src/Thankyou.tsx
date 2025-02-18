@@ -1,7 +1,7 @@
 import { useState } from "react";
 import success from "../public/newsletter-sign-up-with-success-message-main/assets/images/icon-success.svg";
 import App from "./App.tsx";
-const Thankyou = ({ email }) => {
+const Thankyou = ({email}:{email:"string"}) => {
   const [complete, setcomplete] = useState(true);
   return (
     <>
