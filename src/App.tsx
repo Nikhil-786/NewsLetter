@@ -23,7 +23,7 @@ function App() {
       {active ? (
         <div className="mainDiv" style={{ visibility: "visible" }}>
           <div className="firstDiv">
-            <h1>Stay Updated!</h1>
+            <h2>Stay Updated!</h2>
             <p>Join 60,000+ product managers receiving montly updates on:</p>
             <label htmlFor="" className="cl1">
               <img src={success} alt="success" className="success" />
