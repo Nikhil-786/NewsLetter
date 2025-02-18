@@ -71,10 +71,49 @@
 
 #emailLabel{
   margin-left: 20px;
+ font-weight: 600;
 }
 
 .cl1{
   margin-top: 10px;
+}
+
+.thankYou {
+  width: 35%;
+  height: 65%;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+#closeMessage{
+  background-color: hsl(4, 100%, 67%);
+  width: 80%;
+  height: 8%;
+  border-radius: 10px;
+  margin-top: 8%;
+  margin-left: 8%;
+  color: white;
+}
+
+#heading{
+  margin-left: 10%;
+  margin-top: 0px;
+}
+
+#succes{
+  height: 30%;
+  width: 13%;
+  margin-left: 10%;
+}
+#pid{
+  margin-left: 10%;
+}
+
+#emailid{
+  font-weight: 600;
 }
 
 @media only screen and (max-width:600px) {
